@@ -12,6 +12,7 @@ if not w3.is_connected():
 else:
     mock_mode = False
 
+
 # Contract ABI and address (assuming deployed)
 contract_address = '0x...'  # Replace with actual address
 contract_abi = [...]  # Load from artifacts/SupplyChain.json
