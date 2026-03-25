@@ -8,7 +8,6 @@ contract SupplyChain {
     constructor() public {
         Owner = msg.sender;
     }
-
     //Roles (flow of pharma supply chain)
     // RawMaterialSupplier; //This is where Manufacturer will get raw materials to make medicines
     // Manufacturer;  //Various WHO guidelines should be followed by this person
