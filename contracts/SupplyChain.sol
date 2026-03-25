@@ -51,7 +51,6 @@ contract SupplyChain {
         uint256 RETid; //id of the retailer for this particular medicine
         STAGE stage; //current medicine stage
     }
-
     //To store all the medicines on the blockchain
     mapping(uint256 => medicine) public MedicineStock;
 
