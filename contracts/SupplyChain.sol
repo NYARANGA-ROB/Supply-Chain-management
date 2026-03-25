@@ -19,7 +19,6 @@ contract SupplyChain {
         require(msg.sender == Owner);
         _;
     }
-
     //stages of a medicine in pharma supply chain
     enum STAGE {
         Init,
