@@ -35,7 +35,6 @@
     "@protobufjs/utf8" "^1.1.0"
     "@types/long" "^4.0.0"
     long "^4.0.0"
-
 "@apollo/usage-reporting-protobuf@^4.0.0":
   version "4.1.1"
   resolved "https://registry.npmjs.org/@apollo/usage-reporting-protobuf/-/usage-reporting-protobuf-4.1.1.tgz"
