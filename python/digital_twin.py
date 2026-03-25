@@ -27,6 +27,7 @@ class Order:
         self.stage = stage
         self.timestamp = time.time()
 
+
 class Shipment:
     def __init__(self, order_id, from_stage, to_stage, state='pending'):
         self.order_id = order_id
