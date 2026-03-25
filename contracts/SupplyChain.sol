@@ -40,7 +40,6 @@ contract SupplyChain {
     uint256 public disCtr = 0;
     //retailer count
     uint256 public retCtr = 0;
-
     //To store information about the medicine
     struct medicine {
         uint256 id; //unique medicine id
