@@ -35,6 +35,7 @@ class Shipment:
         self.to_stage = to_stage
         self.state = state  # pending, in_transit, delivered
 
+
 class DigitalTwin:
     def __init__(self):
         self.orders = []
