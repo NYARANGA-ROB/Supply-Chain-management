@@ -58,7 +58,6 @@ class DigitalTwin:
                 pass
             time.sleep(random.uniform(0.5, 2))  # Simulate time
             shipment.state = 'delivered'
-
     def sync_from_blockchain(self):
         if mock_mode:
             return
