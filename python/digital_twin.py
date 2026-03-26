@@ -85,7 +85,6 @@ class DigitalTwin:
             print(f"Orders: {len(self.orders)}, Shipments: {len(self.shipments)}")
             time.sleep(1)
             
-
 if __name__ == "__main__":
     dt = DigitalTwin()
     dt.simulation_loop()
