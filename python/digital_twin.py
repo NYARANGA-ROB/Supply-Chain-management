@@ -47,7 +47,6 @@ class DigitalTwin:
             # Call addMedicine
             pass
         return order
-
     def advance_stage(self, order_id, new_stage):
         order = next((o for o in self.orders if o.id == order_id), None)
         if order:
