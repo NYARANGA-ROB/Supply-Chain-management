@@ -6,6 +6,7 @@ contract SupplyChain {
     //note this constructor will be called when smart contract will be deployed on blockchain
     constructor() public {
         Owner = msg.sender;
+
     }
     //Roles (flow of pharma supply chain)
     // RawMaterialSupplier; //This is where Manufacturer will get raw materials to make medicines
